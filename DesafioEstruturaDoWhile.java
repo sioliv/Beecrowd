@@ -40,6 +40,10 @@ public class DesafioEstruturaDoWhile {
 
         } while(true);
 
+        for (int i = 0; i < 10; i++) {
+
+        }
+
         System.out.println("Soma dos números impares: "+somaImpar);
         System.out.println("Soma dos números pares: " +somaPar);
 
