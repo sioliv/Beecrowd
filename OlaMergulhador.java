@@ -22,5 +22,7 @@ public class OlaMergulhador {
             //total.forr - decremento
         }
 
+        System.out.println("testan");// ctrl + shift + enter completa
+
     }
 }
