@@ -4,6 +4,8 @@ public class OlaMergulhador {
 
         boolean pendente = true;
 
+        double taxaImpostos = 2;
+
         System.out.println(total);//total.sout  é o printline do total, colocando o nome da variável
 
         if (pendente) {
@@ -19,10 +21,13 @@ public class OlaMergulhador {
         }
 
         for (int i = total; i > 0; i--) {
+
             //total.forr - decremento
         }
 
         System.out.println("testan");// ctrl + shift + enter completa
 
+
+        //ctrl shift /
     }
 }
