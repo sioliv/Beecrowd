@@ -12,6 +12,11 @@ public class Produto {
     double precoCusto;
     double precoVendaCalculado;
 
+    // para acessar a variável de instancia, passo como parametro uma instância
+    static double calcularCustosTotais(Produto produto){
+        return produto.precoCusto + Produto.custoEmbalagem;
+    }
+
 
     void alterarPrecoCusto(double precoCusto){
         //alterando o precoCusto do parâmetro
@@ -23,11 +28,11 @@ public class Produto {
     //não precisa de uma instância para invocar os métodos
     //posso invocar diretamente na classe
 
-    void alterarCustoEmbalagem(double custoEmbalagem){
+    static void alterarCustoEmbalagem(double custoEmbalagem){
         Produto.custoEmbalagem = custoEmbalagem; // referenciar a v ariavel estatica, chamo a classe depois a variável
     }
 
-    void imprimirCustoEmbalagem(){
+    static void imprimirCustoEmbalagem(){
         System.out.printf("Custo com embalagem %.2f%n", custoEmbalagem);
     }
 }

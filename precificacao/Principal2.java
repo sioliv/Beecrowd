@@ -7,11 +7,9 @@ public class Principal2 {
         Produto produto1 = new Produto();
         Produto produto2 = new Produto();
 
-        produto1.alterarCustoEmbalagem(12);
-        produto2.alterarCustoEmbalagem(20);
+       Produto.alterarCustoEmbalagem(12);
 
-        produto1.imprimirCustoEmbalagem();
-        produto2.imprimirCustoEmbalagem();
+       Produto.imprimirCustoEmbalagem();
 
     }
 
