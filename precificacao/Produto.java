@@ -12,7 +12,10 @@ public class Produto {
     double precoCusto;
     double precoVendaCalculado;
 
+    //quando tenho um método estático nao tenho uma instancia para ser executada, pois é um método da classe
+    //Preciso ter uma referencia, pois o this nao funcionaria neste caso
     // para acessar a variável de instancia, passo como parametro uma instância
+
     static double calcularCustosTotais(Produto produto){
         return produto.precoCusto + Produto.custoEmbalagem;
     }
