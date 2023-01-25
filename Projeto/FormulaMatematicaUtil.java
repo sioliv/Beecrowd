@@ -4,7 +4,7 @@ public class FormulaMatematicaUtil {
 
     static double pi = 3.14;
 
-   static double calcularAreaQuadrado(double lado){
+   static double calcularAreaQuadrado(final double lado){
        double areaQuadrado  = lado * lado;
        return areaQuadrado;
     }

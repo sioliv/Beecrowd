@@ -3,7 +3,7 @@ package DeclarandoConstantesComFinaleStatic;
 public class Principal {
 
     public static void main(String[] args) {
-        Visitante visitante = new Visitante();
+        var visitante = new Visitante();
         visitante.idade = 10;
         visitante.permitindoAcesso();
 
