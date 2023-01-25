@@ -11,7 +11,7 @@ public class CadastroPortaria {
 
     void cadastrar(Visitante visitante, final int tempoExpiracao){
         
-        final int tempoExpiracaoEmDias = tempoExpiracao * 30;
+        final var tempoExpiracaoEmDias = tempoExpiracao * 30;
 
         System.out.printf("Visitante %s cadastrado para %d dias%n", visitante.nome,
                 tempoExpiracaoEmDias);
