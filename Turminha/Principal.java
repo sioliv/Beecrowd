@@ -6,7 +6,7 @@ public class Principal {
         Turma turmaB = new Turma();
         turmaB.identificacao = "Maternal B";
         turmaB.nomeProfessora = "tia maria";
-        turmaB.alunos = new Aluno[3];
+        turmaB.alunos = new Aluno[4];
 
 
 
