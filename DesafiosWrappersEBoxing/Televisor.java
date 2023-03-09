@@ -7,7 +7,7 @@ public class Televisor {
     Integer volume = 20;
 
     void mudarCanal(final Integer novoCanal) {
-        Objects.requireNonNull(novoCanal, "O canal não pode ser mudado");
+        Objects.requireNonNull(novoCanal, "Você deve digitar um canal");
         if (canal.equals(novoCanal)) {
             System.out.println("Novo canal é também o canal atual.");
         } else {
@@ -17,7 +17,7 @@ public class Televisor {
     }
 
     void mudarVolume(Integer novoVolume) {
-        Objects.requireNonNull(novoVolume, "O volume não pode ser mudado");
+        Objects.requireNonNull(novoVolume, "Você deve digitar um canal");
         if (novoVolume.equals(volume)) {
             System.out.println("Novo volume é também o volume atual.");
         } else {
